@@ -19,7 +19,7 @@ var text =
 						"<a href='http://github.com/nickwn/ngine'>Ngine</a> - Coming soon\n",
 	contact: "email: nick.thenebels@gmail.com\ncontact me <a href='mailto:nick.thenebels@gmail.com'>here</a>\n",
 
-	alt: "directing to alternate home page...",
+	alt: "directing to alternate home page...\n",
 
 	wifiStream:
 	[
