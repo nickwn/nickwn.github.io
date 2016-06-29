@@ -39,7 +39,7 @@ $(function ()
       case "contact":
         return text.contact;
       case "alt":
-        self.location = "./alt";
+        self.location = "./alt.html";
         return text.alt;
       default:
         return text.notRight;
