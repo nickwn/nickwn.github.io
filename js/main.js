@@ -4,11 +4,11 @@ function handleTerm(event) {
   switch(input) {
     case 'about':
       smoothScroll.animateScroll(document.querySelector( '#about' ));
-      document.location = './index.html#about';
+      //document.location = './index.html#about';
       break;
     case 'projects':
       smoothScroll.animateScroll(document.querySelector( '#projects' ));
-      document.location = './index.html#projects';
+      //document.location = './index.html#projects';
       break;
     case 'alt':
       document.location = "./alt.html";
