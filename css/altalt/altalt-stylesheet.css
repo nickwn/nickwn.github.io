@@ -1,0 +1,62 @@
+body
+{
+  margin:0px auto;
+  line-height:1.6;
+  font-size:18px;
+  color:#f5f5f5;
+  background-image: url("http://theartmad.com/wp-content/uploads/Blue-Grey-Gradient-Background-2.jpg");
+  background-size: cover;
+}
+
+p
+{
+  margin:40px auto;
+  padding:0 10px;
+  max-width:650px;
+  font-family: "Ubuntu", Ubuntu, sans-serif;
+}
+
+header
+{
+  background-image: url("http://dlb99j1rm9bvr.cloudfront.net/xbox-one-controller/parts/model/size-1000/bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1,h2,h3
+{
+  line-height:1.2;
+  text-align: center;
+  font-family: "Ubuntu", Ubuntu, sans-serif;
+}
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: "Work Sans", "Work Sans", sans-serif;
+}
+
+li
+{
+  float: left;
+}
+
+li a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover
+{
+  background-color: #111;
+}

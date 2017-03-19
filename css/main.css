@@ -1,58 +1,122 @@
-html, body {
-  background-color: #222;
-  color:#eee;
-  font-family: monospace;
-  margin: 0;
-  padding: 0;
-}
-/* The console container element */
-#console {
-  height: 100%;
-  width: 100%;
-  position:relative;
-  background-color:#222;
-  border: none;
-  margin: 0 auto;
-  margin-top: 0px;
-}
-/* The inner console element. */
-.jqconsole {
-    padding: 20px;
-}
-/* The cursor. */
-.jqconsole-cursor {
-	color: #eee;
-  position:relative !important;
-  background-color: white;
-}
-/* The cursor color when the console loses focus. */
-.jqconsole-blurred .jqconsole-cursor {
-    color:white;
-    background-color: white;
-}
-/* The current prompt text color */
-.jqconsole-prompt {
-    color: #eee;
-}
-/* The command history */
-.jqconsole-old-prompt {
-    color: #eee;
-    font-weight: normal;
-}
-/* The text color when in input mode. */
-.jqconsole-input {
-    color: #eee;
-}
-/* Previously entered input. */
-.jqconsole-old-input {
-    color: #858585;
-    font-weight: normal;
-}
-/* The text color of the output. */
-.jqconsole-output {
-    color: #858585;
+/* ---------- General Styles ---------- */
+html {
+  font-family: "VT323", sans-serif;
+  background-color: #111111;
+  color: #D8D8D8;
 }
 
-a{
-  color:#5CD6D6;
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+/* ---------- Title Style ---------- */
+
+.title {
+  color: #E7E7E7;
+  font-size: 7em;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.6s ease;
+  transition: transform 0.6s ease;
+}
+
+h1 {
+  padding-top: 100px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+/* ---------- Chromatic Aberration ---------- */
+
+.chro-ab {
+  text-shadow: 4px 0px 5px aqua, -4px 0px 5px red, 0px 0px 10px white, 0px 0px 10px gold;
+}
+
+/* ---------- Input ---------- */
+
+.title input {
+  text-shadow: 4px 0px 5px aqua, -4px 0px 5px red, 0px 0px 10px white, 0px 0px 10px gold;
+  background-color: #111111;
+  font-size: 1em;
+  height: 150px;
+  color: #E7E7E7;
+  border-color: #111111;
+  width: 80%;
+  display: inline;
+  border: 1px;
+  font-family: "VT323", sans-serif;
+
+}
+
+input[type=text]:hover {
+  border-color: #111111;
+}
+
+input[type=text]:focus {
+    border-color: #111111;
+    outline: none;
+}
+
+/* ---------- About ---------- */
+.about {
+  height: 100%;
+}
+
+.about h1 {
+  font-size: 5em;
+}
+
+.about p {
+  margin: 0 auto;
+  max-width: 1100px;
+  font-size: .6em;
+  text-align: left;
+}
+/* ---------- Projects ---------- */
+
+.projects {
+  height: 100%;
+}
+
+.projects h1 {
+  font-size: 5em;
+  margin-bottom: 30px;
+}
+
+.projects .content a {
+  text-decoration: none;
+  color: #CACACA;
+}
+
+.projects .content {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.projects .content .box {
+  padding: 20px;
+  border-color: black;
+  background-color: black;
+  width: 400px;
+  height: 300px;
+  font-size: 2.5em;
+  box-shadow: 0px 0px 50px darkgrey;
+  margin: 40px;
+  display: block;
+  float: left;
+}
+
+.projects .content .box:hover {
+  box-shadow: 0px 0px 80px darkgrey;
+}
+
+.projects p {
+  margin: 0 auto;
+  max-width: 1100px;
+  font-size: .6em;
+  text-align: left;
 }
