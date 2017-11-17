@@ -2,106 +2,29 @@
 <html>
   <head>
     <title>nickwn</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-    <script src="js/main.js"></script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107119128-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+      gtag('config', 'UA-107119128-1');
+    </script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <section class="title">
-      <h1>
-        <span class="chro-ab">nickwn</span>
-      </h1>
-      <span class="chro-ab">
-        >
-        <input type="text" name="term" onkeydown="if(event.keyCode == 13) {handleTerm(); this.value = '';}">
-      </span>
-    </section>
-    <section class="about" id="about">
-      <h1>About<h1>
-        <p>
-          I'm a high school student living in San Diego, California. <br>
-          I currently participate in Robotics, where I am the leader of the Research and Development track. <br>
-          I also participate in Cyber Security, where I sign in every meeting and do nothing else. <br>
-          See my cool github accout <a href="https://github.com/nickwn">here</a>. <br>
-        </p>
-    </section>
-    <section class="projects" id="projects">
-      <h1>Projects</h1>
-      <div class="content">
-        <div class="box">
-          <a href="https://github.com/nickwn/njine">
-            <h3>Njine</h3>
-            <p>
-              A real-time 3D rendering engine written in Java using the standard
-              2D graphics libraries. It can read .obj files and has a built in
-              first-person camera.
-              <br>
-              <a style="color: #4F89B7;" href="https://nickwn.github.io/njine">Website</a>
-            </p>
-          </a>
-        </div>
-        <div class="box">
-          <a href="https://github.com/nickwn/ProjectATOD">
-            <h3>ProjectATOD</h3>
-            <p>
-              An APCS final project written in Java using
-              <a style="color: #4F89B7;" href="https://libgdx.badlogicgames.com/libGDX">libGDX</a>. As a
-              tailgunner, you must shoot enemy planes off your tail before they
-              shoot you!<br>We chose ATOD because it spells DOTA backwards.
-            </p>
-          </a>
-        </div>
-        <div class="box">
-          <a href="https://github.com/nickwn/bluebot">
-            <h3>bluebot</h3>
-            <p>
-              A Slack-integrated hubot that drastically increases and decreases
-              Option 16's productivity. It can look up match scores and teams on
-              <a style="color: #4F89B7;" href="https://thebluealliance.com">The Blue Alliance</a>,
-              look up robotics-related terms, and recite the entire bee movie
-              script.
-            </p>
-          </a>
-        </div>
-        <div class="box">
-          <a href="https://github.com/nickwn/MilkyWhite">
-            <h3>bluebot</h3>
-            <p>
-              The Arduino code for the animatronic, remote-controlled cow named
-              Milky White. It features moving eyelids, ears, and a tail. The cow
-              has been displayed in several of Option 16's outreach activities.
-            </p>
-          </a>
-        </div>
-        <div class="box">
-          <a href="https://github.com/frc-team-3341/cv-2016">
-            <h3>cv-2016</h3>
-            <p>
-              A targeting program written in C++ using OpenCV to detect a
-              U-shaped target made out of reflective tape. This was made for the
-              2016
-              <a style="color: #4F89B7;" href="https://www.firstinspires.org/robotics/frc">FRC</a>
-              Competition,
-              <a style="color: #4F89B7;" href="https://www.firstinspires.org/robotics/frc/welcome-to-first-stronghold">FIRST Stronghold</a>.
-            </p>
-          </a>
-        </div>
-        <div class="box">
-          <a href="https://github.com/frc-team-3341/cv-2016">
-            <h3>cv-rectangle-detector</h3>
-            <p>
-              For all of your rectangle detecting needs. This was made with C++
-              using OpenCV. It was used to teach students in the Westview
-              Robotics CV track the basics of our CV algorithm.
-            </p>
-          </a>
-        </div>
+    <div class="content home-content">
+      <h1 class="centered">nickwn</h1>
+      <h3 class="centered">software developer</h2>
+      <div class="centered">
+        <a href="about.html" class="menu-option">about</a>
+        <a href="coming-soon.html" class="menu-option">resume</a>
+        <a href="projects.html" class="menu-option">projects</a>
+        <a href="mailto:nick.thenebels@gmail.com" class="menu-option">contact</a>
+        <a href="https://github.com/nickwn" class="menu-option">github</a>
+        <a href="coming-soon.html" class="menu-option">blog</a>
       </div>
-    </section>
-    <footer>
-      <script src="js/smooth-scroll.js">
-        smoothScroll.init();
-      </script>
-    </footer>
+    </div>
   </body>
 </html>
