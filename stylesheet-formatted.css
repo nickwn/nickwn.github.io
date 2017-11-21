@@ -30,14 +30,27 @@ h1 {
   margin: 0 auto;
 }
 
-.inner-wide {
-  max-width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  column-count: 2;
-  column-gap: 20px;
-  /*height: 860px;*/
-  padding-top: 30px;
+
+@media only screen and (min-width: 671px), only screen and (min-device-width: 671px) {
+  .inner-wide {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    column-count: 2;
+    column-gap: 20px;
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 670px), only screen and (max-device-width: 670px) {
+  .inner-wide {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    column-count: 1;
+    column-gap: 20px;
+    padding-top: 30px;
+  }
 }
 
 p {
