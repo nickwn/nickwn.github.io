@@ -1,7 +1,19 @@
-@import url('https://free.bboxtype.com/embedfonts/?family=FiraSans:100,100i');
+@font-face {
+  font-family: fira-sans;
+  src: url('FiraSans-ExtraLight.ttf');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: fira-sans;
+  src: url('FiraSans-ExtraLightItalic.ttf');
+  font-weight: 100;
+  font-style: italic;
+}
 
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: fira-sans, sans-serif;
   background-color: #000;
   color: #aaa;
 }
