@@ -1,1 +1,44 @@
-@font-face{font-family:fira-sans;src:url(FiraSans-ExtraLight.ttf);font-weight:100;font-style:normal}@font-face{font-family:fira-sans;src:url(FiraSans-ExtraLightItalic.ttf);font-weight:100;font-style:italic}body{font-family:fira-sans,sans-serif;background-color:#000;color:#aaa}.content{padding-top:200px;margin:20px;text-align:center}h1{font-weight:100;letter-spacing:1px}h3{margin:20px;font-weight:100;font-style:italic}.links-container{margin:0 auto;max-width:1000px;padding:20px;align-content:center}a{padding:3px;text-decoration:none;color:inherit;margin-left:3%;margin-right:3%;line-height:1.7em}a:hover{background:#181818;transition-property:background;transition-duration:.2s;border-radius:8px}a.external::after{position:relative;content:"°";margin-left:.1em;font-size:90%;top:-.1em;font-feature-settings:"caps"}
+@font-face {
+    font-family: fira-sans;
+    src: url(FiraSans-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fira-sans-condensed;
+    src: url(FiraSansCondensed-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: fira-sans-condensed, sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #333;
+}
+
+h1 {
+    font-family: fira-sans, sans-serif;
+    font-weight: 900;
+    font-size: 8em;
+    font-variant: small-caps;
+    line-height: 0.7em;
+    text-align: right;
+    letter-spacing: -5px;
+    margin: 0;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 430px) {
+    h1 {
+        font-size: 6em;
+    }
+}
